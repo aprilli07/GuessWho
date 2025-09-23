@@ -9,8 +9,6 @@
 import javax.sound.sampled.*; // Audio components
 import java.io.File; // File handling
 
-// CODED BY: PONNAVADDN & LUCAS
-
 // This class handles sounds 
 public class Music {
     private Clip clip; // Sound effects 

@@ -9,8 +9,6 @@
 import java.util.ArrayList;    
 import java.util.Random;
 
-// CODED BY: APRIL & PONNAVADDN
-
 // This class handles the AI's logic for removing and asking questions 
 public class AI {
 

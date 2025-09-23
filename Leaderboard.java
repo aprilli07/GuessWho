@@ -15,8 +15,6 @@ import java.util.List;
 import java.util.Scanner;
 import javax.swing.*;
 
-// CODED BY: JERRY
-
 // This class handles the leaderboard GUI and updating the leaderboard after each game 
 public class Leaderboard {
 

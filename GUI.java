@@ -13,8 +13,6 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import javax.swing.border.EmptyBorder;                
 
-// CODED BY: EVERYONE (look further to see which parts are coded by who)
-
 // This class handles the GUI of the game as well as switching between player turns (implements all the methods from other classes)
 public class GUI {
 
@@ -81,8 +79,6 @@ public class GUI {
         // Open welcome screen 
         welcomeScreen();
     }
-
-    // CODED BY: LUCAS 
 
     // Welcome screen GUI components  
     private void welcomeScreen() {
@@ -217,8 +213,6 @@ public class GUI {
         sidePanel.add(selectedCharacterLabel, BorderLayout.CENTER);
         boardFrame.add(sidePanel, BorderLayout.EAST);
 
-        // CODED BY: APRIL & LUCAS
-
         // Add buttons with images for each character
         for (int i = 0; i < characterNames.length; i++) { 
             String name = characterNames[i]; // Access each name by index
@@ -296,8 +290,6 @@ public class GUI {
 
         // Add grid panel to the board frame
         boardFrame.add(gridPanel, BorderLayout.CENTER);
-        
-        // CODED BY: LUCAS 
 
         // Dropdown for Questions
         bottomPanel = new JPanel();
@@ -324,8 +316,6 @@ public class GUI {
         askPanel.add(questionLabel);
         askPanel.add(questionDropdown);
         askPanel.add(askButton);
-
-        // CODED BY: JERRY 
 
         // Dropdown for guessing characters
         guessPanel = new JPanel();
@@ -372,8 +362,6 @@ public class GUI {
 
         // Settings button action listener
         settingsButton.addActionListener(e -> openSettingsWindow());
-        
-        // CODED BY: APRIL & LUCAS
 
         // Player turn to ask question 
         ActionListener buttonListener = new ActionListener() {
@@ -498,7 +486,6 @@ public class GUI {
 
     }
 
-    // CODED BY: APRIL 
     // AI Turn
     private void aiTurn() {
         if (!gameboard.isPlayerTurn()) { // AI's turn
@@ -619,7 +606,6 @@ public class GUI {
         return false;
     }   
 
-    // CODED BY: JERRY
     // Remove questions player already asked in dropdown 
     private void updateDropdown() {
         questionDropdown.removeAllItems(); // Clear dropdown
@@ -640,8 +626,6 @@ public class GUI {
             guessDropdown.addItem(new Question("Is " + c.getName() + " your character?", "guess", c.getName())); // Add each question to dropdown
         }
     }
-
-    // CODED BY: LUCAS 
     
     // Updates eliminated character buttons with new icons 
     private void updateEliminatedCharacterButtons() {
@@ -659,8 +643,6 @@ public class GUI {
             }
         }
     }
-    
-    // CODED BY: PONNAVADDN 
 
     // Restart the game in the middle of a current game
     private void resetGame(){

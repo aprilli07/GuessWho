@@ -6,8 +6,6 @@
  * Assignemnt: Guess who ISP - Question class
  */
 
-// CODED BY: APRIL     
-
 // This class handles the questions that the player and AI can ask
 public class Question {
     

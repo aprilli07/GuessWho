@@ -12,16 +12,12 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;   
 
-// CODED BY: APRIL & JERRY 
-
 // This class handles the basic game functions 
 public class Gameboard {
     
     //Variables 
     private boolean isPlayerTurn = true; // Player starts first
     private boolean gameOver = false;   // Track if the game has ended
-
-    // CODED BY: JERRY
 
     // Constructor
     public Gameboard() {
@@ -39,7 +35,6 @@ public class Gameboard {
         return isPlayerTurn;
     }
 
-    // CODED BY: APRIL
     /*
      * Void method that ends the game and the player can either restart, view the leaderboard, or exit the game.
      *
@@ -105,7 +100,6 @@ public class Gameboard {
 
     }
 
-    // CODED BY: JERRY 
     /*
      * Checks if the win condition is met and retrieves the player's/AI's chosen character
      * 
@@ -137,7 +131,6 @@ public class Gameboard {
         return null; // Return null if no match is found
     } 
 
-    // CODED BY: APRIL
     /*
      * Filters a list of characters based on a specified attribute and value.
      *
