@@ -17,7 +17,6 @@ public class Main {
     public static ArrayList<Question> guessQuestions = new ArrayList<>();
     public static Music music; 
 
-    // CODED BY: APRIL 
     public static void main(String[] args) {
         // Initialize characters and questions
         initializeCharacters(); 
