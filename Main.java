@@ -1,11 +1,3 @@
-/*
- * Name: April, Lucas, Jerry, Ponnavaddn
- * Due Date: Jan 15, 2025 
- * Teacher: Mr. Chu
- * Course: ISC4U    
- * Assignemnt: Guess who ISP - Main class
- */
-
 import java.util.ArrayList; 
 
 // This is the main class that instatiates everything and runs the code

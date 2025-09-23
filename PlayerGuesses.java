@@ -1,11 +1,3 @@
-/*
- * Name: April, Lucas, Jerry, Ponnavaddn
- * Due Date: Jan 15, 2025 
- * Teacher: Mr. Chu
- * Course: ISC4U 
- * Assignemnt: Guess who ISP - PlayerGuesses class
- */
-
 // This class helps track name and number of guesses used in the leaderboard 
 public class PlayerGuesses {
     private String playerName; // Player name 

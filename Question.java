@@ -1,11 +1,3 @@
-/*
- * Name: April, Lucas, Jerry, Ponnavaddn
- * Due Date: Jan 15, 2025 
- * Teacher: Mr. Chu
- * Course: ISC4U 
- * Assignemnt: Guess who ISP - Question class
- */
-
 // This class handles the questions that the player and AI can ask
 public class Question {
     

@@ -1,11 +1,3 @@
-/*
- * Name: April, Lucas, Jerry, Ponnavaddn
- * Due Date: Jan 15, 2025 
- * Teacher: Mr. Chu
- * Course: ISC4U 
- * Assignemnt: Guess who ISP - Gameboard class
- */
-
 import java.awt.Window;
 import java.util.ArrayList;
 import javax.swing.JFrame;
