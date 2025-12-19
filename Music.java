@@ -1,5 +1,5 @@
-import javax.sound.sampled.*; // Audio components
-import java.io.File; // File handling
+ import java.io.File; // Audio components
+import javax.sound.sampled.*; // File handling
 
 // This class handles sounds 
 public class Music {

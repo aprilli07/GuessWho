@@ -1,4 +1,4 @@
-import java.util.ArrayList;    
+ import java.util.ArrayList;    
 import java.util.Random;
 
 // This class handles the AI's logic for removing and asking questions 

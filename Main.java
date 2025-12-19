@@ -1,4 +1,4 @@
-import java.util.ArrayList; 
+ import java.util.ArrayList; 
 
 // This is the main class that instatiates everything and runs the code
 public class Main {

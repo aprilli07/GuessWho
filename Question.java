@@ -1,4 +1,4 @@
-// This class handles the questions that the player and AI can ask
+ // This class handles the questions that the player and AI can ask
 public class Question {
     
     //Private attributes 
